@@ -9,7 +9,4 @@ from openerp import fields, models
 class StockMove(models.Model):
     _inherit = "stock.move"
 
-    procurement_id = fields.Many2one(index=True)
-    # Improve stock move unlink
-    origin_returned_move_id = fields.Many2one(index=True)
-    split_from = fields.Many2one(index=True)
+    consumed_for = fields.Many2one(index=True)

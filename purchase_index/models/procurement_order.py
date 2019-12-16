@@ -9,7 +9,4 @@ from openerp import fields, models
 class ProcurementOrder(models.Model):
     _inherit = "procurement.order"
 
-    move_dest_id = fields.Many2one(index=True)
-    sale_line_id = fields.Many2one(index=True)
-    group_id = fields.Many2one(index=True)
-    state = fields.Selection(index=True)
+    purchase_line_id = fields.Many2one(index=True)
