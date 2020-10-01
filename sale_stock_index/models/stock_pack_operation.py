@@ -10,3 +10,4 @@ class StockPackOperation(models.Model):
     _inherit = "stock.pack.operation"
 
     picking_id = fields.Many2one(index=True)
+    location_id = fields.Many2one(index=True)
