@@ -7,3 +7,4 @@ from . import stock_picking
 from . import stock_pack_operation
 from . import procurement_order
 from . import stock_operation_link
+from . import stock_quant
