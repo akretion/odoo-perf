@@ -17,7 +17,12 @@ None
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[perf_product](perf_product/) | 14.0.1.0.0 |  | improve perf for product module
+[perf_product_inactive](perf_product_inactive/) | 14.0.1.0.0 |  | Improve perf when deleting variant
 
 [//]: # (end addons)
 
