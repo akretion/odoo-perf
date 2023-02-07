@@ -20,7 +20,7 @@ class ProductTemplate(models.Model):
         if "attribute_line_ids" in vals or (
             vals.get("active") and len(self.product_variant_ids) == 0
         ):
-            if vals["active"]:
+            if vals.get("active"):
                 self = self.with_context(skip_reactivate_variant=False)
             self._create_variant_ids()
         return res
