@@ -14,7 +14,7 @@ class Base(models.AbstractModel):
 
     def _modified_triggers(self, tree, create=False):
         for field, records, create in super()._modified_triggers(tree, create=False):
-            if "company_id" in records._fields and len(records.company_id) > 1:
+            if "company_id" in records._fields and len(records.exists().company_id) > 1:
 
                 if records._name in ["stock.warehouse.orderpoint"]:
                     _logger.debug("Perf: filter record only for current company")

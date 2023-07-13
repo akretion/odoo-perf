@@ -6,6 +6,8 @@ from odoo.fields import Field
 
 ori_setup_attrs = Field._setup_attrs
 
+# Run me as server_wide module and then run an update all
+
 
 def _setup_attrs(self, model, name):
     ori_setup_attrs(self, model, name)

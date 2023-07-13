@@ -4,8 +4,8 @@
 
 
 {
-    "name": "custom_pert",
-    "summary": "Custom Perf",
+    "name": "perf_multicompany",
+    "summary": "Perf Multicompany",
     "version": "14.0.1.0.0",
     "development_status": "Alpha",
     "category": "Uncategorized",
