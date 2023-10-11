@@ -5,7 +5,7 @@
 {
     "name": "perf account",
     "summary": "Perf account optimisation",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.0.1",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
