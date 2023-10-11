@@ -5,8 +5,7 @@
 from odoo import fields, models
 
 
-class MrpProduction(models.Model):
-    _inherit = "mrp.production"
+class AccountMoveLine(models.Model):
+    _inherit = "account.move.line"
 
-    lot_producing_id = fields.Many2one(index=True)
     product_id = fields.Many2one(index=True)
