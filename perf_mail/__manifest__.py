@@ -5,7 +5,7 @@
 {
     "name": "perf mail",
     "summary": "Perf mail optimisation",
-    "version": "14.0.1.0.1",
+    "version": "14.0.1.0.2",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
