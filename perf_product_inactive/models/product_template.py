@@ -17,8 +17,12 @@ class ProductTemplate(models.Model):
         res = super(
             ProductTemplate, self.with_context(skip_create_variant_ids=True)
         ).write(vals)
-        if "attribute_line_ids" in vals or (
-            vals.get("active") and len(self.product_variant_ids) == 0
+        if (
+            "attribute_line_ids" in vals
+            or (vals.get("active") and len(self.product_variant_ids) == 0)
+            # This adds support for the module product_attribute_variant_rules
+            # Avoiding the need to create a glue module:
+            or ("use_attribute_rules" in vals or "product_attribute_rule_ids" in vals)
         ):
             if vals.get("active"):
                 self = self.with_context(skip_reactivate_variant=False)
