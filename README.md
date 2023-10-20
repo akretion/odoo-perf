@@ -22,7 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [perf_account](perf_account/) | 14.0.1.0.1 |  | Perf account optimisation
-[perf_mail](perf_mail/) | 14.0.1.0.1 |  | Perf mail optimisation
+[perf_mail](perf_mail/) | 14.0.1.0.2 |  | Perf mail optimisation
 [perf_mrp](perf_mrp/) | 14.0.1.0.1 |  | Perf mrp optimisation
 [perf_multicompany](perf_multicompany/) | 14.0.1.0.0 |  | Perf Multicompany
 [perf_product](perf_product/) | 14.0.1.0.1 |  | improve perf for product module
