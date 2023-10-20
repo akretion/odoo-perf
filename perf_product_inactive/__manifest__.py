@@ -5,7 +5,7 @@
 {
     "name": "perf_product_inactive",
     "summary": "Improve perf when deleting variant",
-    "version": "14.0.1.0.2",
+    "version": "14.0.1.0.3",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
