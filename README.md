@@ -26,7 +26,8 @@ addon | version | maintainers | summary
 [perf_mrp](perf_mrp/) | 14.0.1.0.1 |  | Perf mrp optimisation
 [perf_multicompany](perf_multicompany/) | 14.0.1.0.0 |  | Perf Multicompany
 [perf_product](perf_product/) | 14.0.1.0.1 |  | improve perf for product module
-[perf_product_inactive](perf_product_inactive/) | 14.0.1.0.2 |  | Improve perf when deleting variant
+[perf_product_inactive](perf_product_inactive/) | 14.0.1.0.3 |  | Improve perf when deleting variant
+[perf_purchase](perf_purchase/) | 14.0.1.0.1 |  | Perf purchase optimisation
 [perf_sale](perf_sale/) | 14.0.1.0.1 |  | Perf sale optimisation
 [perf_sale_stock](perf_sale_stock/) | 14.0.1.0.0 |  | Perf sale stock optimisation
 [perf_stock](perf_stock/) | 14.0.1.0.1 |  | Perf stock optimisation
