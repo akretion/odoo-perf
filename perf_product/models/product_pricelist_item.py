@@ -6,7 +6,7 @@
 from odoo import fields, models
 
 
-class ProductPricelist(models.Model):
+class ProductPricelistItem(models.Model):
     _inherit = "product.pricelist.item"
 
     categ_id = fields.Many2one(index=True)
