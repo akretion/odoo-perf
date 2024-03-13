@@ -9,4 +9,5 @@ class MrpProduction(models.Model):
     _inherit = "mrp.production"
 
     lot_producing_id = fields.Many2one(index=True)
+    procurement_group_id = fields.Many2one(index=True)
     product_id = fields.Many2one(index=True)
