@@ -11,6 +11,7 @@
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
+    "installable": False,
     "external_dependencies": {
         "python": [],
         "bin": [],
