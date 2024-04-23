@@ -4,7 +4,7 @@
 
 from odoo import fields, models
 
-from odoo.addons.product.models import product
+from odoo.addons.product.models import product_product
 
 
 class ProductProduct(models.Model):
@@ -20,4 +20,4 @@ def _prepare_sellers(self, params=False):
     ).sorted(lambda s: (s.sequence, -s.min_qty, s.price, s.id))
 
 
-product.ProductProduct._prepare_sellers = _prepare_sellers
+product_product.ProductProduct._prepare_sellers = _prepare_sellers

@@ -6,7 +6,7 @@
 {
     "name": "Perf Product",
     "summary": "improve perf for product module",
-    "version": "14.0.1.0.4",
+    "version": "16.0.1.0.0",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
