@@ -5,7 +5,7 @@
 from odoo import fields, models
 
 
-class StockProductionLot(models.Model):
-    _inherit = "stock.production.lot"
+class StockLot(models.Model):
+    _inherit = "stock.lot"
 
     product_id = fields.Many2one(index=True)

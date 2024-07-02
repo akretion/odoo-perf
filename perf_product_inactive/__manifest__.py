@@ -5,13 +5,13 @@
 {
     "name": "perf_product_inactive",
     "summary": "Improve perf when deleting variant",
-    "version": "14.0.1.0.3",
+    "version": "16.0.1.0.3",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
-    "installable": False,
+    "installable": True,
     "external_dependencies": {
         "python": [],
         "bin": [],
