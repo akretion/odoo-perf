@@ -28,7 +28,7 @@ class Base(models.AbstractModel):
                         lambda s: s.company_id == self.env.company
                     )
                 else:
-                    _logger.warning(
+                    _logger.debug(
                         "Performance danger detection. Notify recompute record from "
                         "different company model %s",
                         records._name,
