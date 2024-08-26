@@ -5,13 +5,13 @@
 {
     "name": "perf sale",
     "summary": "Perf sale optimisation",
-    "version": "14.0.1.0.2",
+    "version": "16.0.1.0.0",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
-    "installable": False,
+    "installable": True,
     "external_dependencies": {
         "python": [],
         "bin": [],
