@@ -5,13 +5,13 @@
 {
     "name": "perf stock",
     "summary": "Perf stock optimisation",
-    "version": "14.0.1.0.1",
+    "version": "16.0.1.0.0",
     "development_status": "Alpha",
     "category": "Uncategorized",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
-    "installable": False,
+    "installable": True,
     "external_dependencies": {
         "python": [],
         "bin": [],
