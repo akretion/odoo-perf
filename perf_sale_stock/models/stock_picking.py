@@ -13,5 +13,5 @@ class StockPicking(models.Model):
     location_id = fields.Many2one(index=True)
     location_dest_id = fields.Many2one(index=True)
     picking_type_id = fields.Many2one(index=True)
-    printed = fields.Many2one(index=True)
-    immediate_transfer = fields.Many2one(index=True)
+    printed = fields.Boolean(index=True)
+    immediate_transfer = fields.Boolean(index=True)
