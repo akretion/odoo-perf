@@ -3,22 +3,16 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "perf account",
-    "summary": "Perf account optimisation",
-    "version": "16.0.1.0.0",
+    "name": "Perf Account",
+    "summary": "Perf account optimisation, mainly index",
+    "version": "18.0.1.0.0",
     "development_status": "Alpha",
-    "category": "Uncategorized",
+    "category": "Tools",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
     "installable": True,
-    "external_dependencies": {
-        "python": [],
-        "bin": [],
-    },
     "depends": [
         "account",
     ],
-    "data": [],
-    "demo": [],
 }
