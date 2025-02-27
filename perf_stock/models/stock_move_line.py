@@ -9,3 +9,5 @@ class StockMoveLine(models.Model):
     _inherit = "stock.move.line"
 
     lot_id = fields.Many2one(index=True)
+    partner_id = fields.Many2one(index=True)
+    owner_id = fields.Many2one(index=True)

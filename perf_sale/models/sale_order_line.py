@@ -11,3 +11,5 @@ class SaleOrderLine(models.Model):
 
     product_id = fields.Many2one(index=True)
     state = fields.Selection(index=True)
+    order_partner_id = fields.Many2one(index=True)
+    address_allotment_id = fields.Many2one(index=True)

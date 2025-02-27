@@ -11,3 +11,4 @@ class MrpProduction(models.Model):
     lot_producing_id = fields.Many2one(index=True)
     procurement_group_id = fields.Many2one(index=True)
     product_id = fields.Many2one(index=True)
+    partner_id = fields.Many2one(index=True)

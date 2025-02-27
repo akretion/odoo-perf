@@ -9,6 +9,8 @@ class StockMove(models.Model):
     _inherit = "stock.move"
 
     product_qty = fields.Float(index=True)
+    restrict_partner_id = fields.Many2one(index=True)
+    partner_id = fields.Many2one(index=True)
 
     def init(self):
         super().init()

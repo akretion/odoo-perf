@@ -10,3 +10,5 @@ class StockPicking(models.Model):
     _inherit = "stock.picking"
 
     sale_id = fields.Many2one(index=True)
+    owner_id = fields.Many2one(index=True)
+    partner_id = fields.Many2one(index=True)
