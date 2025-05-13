@@ -1,15 +1,15 @@
 
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/akretion/odoo-perf/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/akretion/odoo-perf/actions/workflows/pre-commit.yml?query=branch%3A14.0)
-[![Build Status](https://github.com/akretion/odoo-perf/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/akretion/odoo-perf/actions/workflows/test.yml?query=branch%3A14.0)
-[![codecov](https://codecov.io/gh/akretion/odoo-perf/branch/14.0/graph/badge.svg)](https://codecov.io/gh/akretion/odoo-perf)
+[![Pre-commit Status](https://github.com/akretion/odoo-perf/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/akretion/odoo-perf/actions/workflows/pre-commit.yml?query=branch%3A18.0)
+[![Build Status](https://github.com/akretion/odoo-perf/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/akretion/odoo-perf/actions/workflows/test.yml?query=branch%3A18.0)
+[![codecov](https://codecov.io/gh/akretion/odoo-perf/branch/18.0/graph/badge.svg)](https://codecov.io/gh/akretion/odoo-perf)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
 <!-- /!\ do not modify above this line -->
 
 # Odoo module for improving perfomance
 
-None
+Mainly adding index
 
 <!-- /!\ do not modify below this line -->
 
