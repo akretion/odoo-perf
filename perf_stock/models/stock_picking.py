@@ -9,4 +9,5 @@ from odoo import fields, models
 class StockPicking(models.Model):
     _inherit = "stock.picking"
 
-    sale_id = fields.Many2one(index=True)
+    location_id = fields.Many2one(index=True)
+    location_dest_id = fields.Many2one(index=True)
