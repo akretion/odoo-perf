@@ -5,7 +5,7 @@
 from odoo import fields, models
 
 
-class ProductSupplierinfo(models.Model):
-    _inherit = "product.supplierinfo"
+class ProductTemplate(models.Model):
+    _inherit = "product.template"
 
-    product_id = fields.Many2one(index=True)
+    type = fields.Selection(index=True)

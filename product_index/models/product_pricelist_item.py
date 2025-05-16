@@ -9,8 +9,8 @@ from odoo import fields, models
 class ProductPricelistItem(models.Model):
     _inherit = "product.pricelist.item"
 
-    categ_id = fields.Many2one(index=True)
-    product_id = fields.Many2one(index=True)
-    product_tmpl_id = fields.Many2one(index=True)
-    date_start = fields.Datetime(index=True)
-    date_end = fields.Datetime(index=True)
+    categ_id = fields.Many2one(index="btree_not_null")
+    product_id = fields.Many2one(index="btree_not_null")
+    product_tmpl_id = fields.Many2one(index="btree_not_null")
+    date_start = fields.Datetime(index="btree_not_null")
+    date_end = fields.Datetime(index="btree_not_null")

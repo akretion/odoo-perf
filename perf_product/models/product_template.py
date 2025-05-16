@@ -8,7 +8,6 @@ from odoo import fields, models
 class ProductTemplate(models.Model):
     _inherit = "product.template"
 
-    type = fields.Selection(index=True)
     template_specific_seller_ids = fields.One2many(
         "product.supplierinfo", "product_tmpl_id", domain=[("product_id", "=", False)]
     )

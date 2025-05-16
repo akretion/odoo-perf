@@ -4,8 +4,8 @@
 
 
 {
-    "name": "Perf Product",
-    "summary": "improve perf for product module",
+    "name": "Product Index",
+    "summary": "improve perf for product module with adhoc index",
     "version": "18.0.1.0.0",
     "development_status": "Alpha",
     "category": "Uncategorized",
@@ -17,8 +17,8 @@
         "bin": [],
     },
     "depends": [
-        "product_index",
+        "product",
     ],
     "data": [],
-    "installable": True,
+    "demo": [],
 }
