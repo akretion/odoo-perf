@@ -1,0 +1,1 @@
+Add index on sales related model
