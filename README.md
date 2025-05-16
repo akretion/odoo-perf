@@ -17,7 +17,11 @@ Mainly adding index
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[perf_sale](perf_sale/) | 18.0.1.0.0 |  | Perf sale optimisation, mainly index
 
 [//]: # (end addons)
 
