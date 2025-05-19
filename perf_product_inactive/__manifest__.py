@@ -17,8 +17,9 @@
         "bin": [],
     },
     "depends": [
-        "product_variant_inactive",
+        # "product_variant_inactive",  # TODO only set when dependency is ok
     ],
     "data": [],
     "demo": [],
+    "installable": False
 }
