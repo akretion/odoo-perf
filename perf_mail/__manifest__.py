@@ -3,11 +3,11 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "perf mail",
+    "name": "Perf Mail",
     "summary": "Perf mail optimisation",
-    "version": "16.0.1.0.0",
-    "development_status": "Alpha",
-    "category": "Uncategorized",
+    "version": "18.0.1.0.0",
+    "development_status": "Beta",
+    "category": "Tools",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
@@ -19,6 +19,4 @@
     "depends": [
         "mail",
     ],
-    "data": [],
-    "demo": [],
 }

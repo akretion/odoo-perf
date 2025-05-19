@@ -1,0 +1,1 @@
+Add index on mail related model

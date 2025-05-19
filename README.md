@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[perf_mail](perf_mail/) | 18.0.1.0.0 |  | Perf mail optimisation
 [perf_sale](perf_sale/) | 18.0.1.0.0 |  | Perf sale optimisation, mainly index
 
 [//]: # (end addons)

@@ -8,4 +8,4 @@ from odoo import fields, models
 class MailTrackingValue(models.Model):
     _inherit = "mail.tracking.value"
 
-    field = fields.Many2one(index=True)
+    field_id = fields.Many2one(index=True)
