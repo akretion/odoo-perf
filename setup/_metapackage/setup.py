@@ -13,7 +13,6 @@ setuptools.setup(
         'odoo-addon-perf_mrp>=16.0dev,<16.1dev',
         'odoo-addon-perf_multicompany>=16.0dev,<16.1dev',
         'odoo-addon-perf_product>=16.0dev,<16.1dev',
-        'odoo-addon-perf_product_inactive>=16.0dev,<16.1dev',
         'odoo-addon-perf_purchase>=16.0dev,<16.1dev',
         'odoo-addon-perf_sale>=16.0dev,<16.1dev',
         'odoo-addon-perf_sale_stock>=16.0dev,<16.1dev',
