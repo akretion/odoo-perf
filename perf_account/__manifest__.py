@@ -6,7 +6,7 @@
     "name": "Perf Account",
     "summary": "Perf account optimisation, mainly index",
     "version": "18.0.1.0.0",
-    "development_status": "Alpha",
+    "development_status": "Beta",
     "category": "Tools",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
