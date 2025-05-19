@@ -8,4 +8,5 @@ from odoo import fields, models
 class SaleOrder(models.Model):
     _inherit = "sale.order"
 
-    procurement_group_id = fields.Many2one(index=True)
+    # quotations should not to be indexed for this field
+    procurement_group_id = fields.Many2one(index="btree_not_null")

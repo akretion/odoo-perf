@@ -3,22 +3,16 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
-    "name": "perf sale stock",
+    "name": "Perf Sale Stock",
     "summary": "Perf sale stock optimisation",
-    "version": "16.0.1.0.0",
-    "development_status": "Alpha",
-    "category": "Uncategorized",
+    "version": "18.0.1.0.0",
+    "development_status": "Beta",
+    "category": "Tools",
     "website": "https://github.com/akretion/odoo-perf",
     "author": " Akretion",
     "license": "AGPL-3",
     "installable": True,
-    "external_dependencies": {
-        "python": [],
-        "bin": [],
-    },
     "depends": [
         "sale_stock",
     ],
-    "data": [],
-    "demo": [],
 }
