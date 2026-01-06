@@ -8,5 +8,4 @@ class AccountMove(models.Model):
     _inherit = "account.move"
 
     commercial_partner_id = fields.Many2one(index=True)
-    partner_id = fields.Many2one(index=True)
-    partner_shipping_id = fields.Many2one(index=True)
+    partner_shipping_id = fields.Many2one(index="btree_not_null")
