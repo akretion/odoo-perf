@@ -1,0 +1,1 @@
+Add index on stock related models
