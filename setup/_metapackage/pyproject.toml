@@ -1,10 +1,11 @@
 [project]
 name = "odoo-addons-akretion-odoo-perf"
-version = "18.0.20260116.0"
+version = "18.0.20260116.1"
 dependencies = [
     "odoo-addon-perf_account==18.0.*",
     "odoo-addon-perf_mail==18.0.*",
     "odoo-addon-perf_sale==18.0.*",
+    "odoo-addon-perf_sale_stock==18.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",
