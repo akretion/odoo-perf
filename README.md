@@ -23,9 +23,11 @@ addon | version | maintainers | summary
 --- | --- | --- | ---
 [perf_account](perf_account/) | 18.0.1.0.0 |  | Perf account optimisation, mainly index
 [perf_mail](perf_mail/) | 18.0.1.0.0 |  | Perf mail optimisation
+[perf_product](perf_product/) | 18.0.1.0.0 |  | improve perf for product module
 [perf_sale](perf_sale/) | 18.0.1.0.0 |  | Perf sale optimisation, mainly index
 [perf_sale_stock](perf_sale_stock/) | 18.0.1.0.0 |  | Perf sale stock optimisation
 [perf_stock](perf_stock/) | 18.0.1.0.0 |  | Perf stock optimisation, mainly indexes
+[product_index](product_index/) | 18.0.1.0.0 |  | improve perf for product module with adhoc index
 
 [//]: # (end addons)
 
